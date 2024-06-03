@@ -1,7 +1,5 @@
 plinker
 ========
-[![Build Status](https://travis-ci.org/quartzbio/plinker_pkg.svg?branch=master)](https://travis-ci.org/quartzbio/plinker_pkg)
-[![codecov](https://codecov.io/github/quartzbio/plinker_pkg/coverage.svg)](https://codecov.io/github/quartzbio/plinker_pkg)
 
 
 plinker is a R package to interface PLINK over PLINK BED files
@@ -16,7 +14,7 @@ The easiest way is to use the precompiled binaries available here: https://www.c
 To install the package:
 #### using devtools
 ```
-devtools::install_github('quartzbio/plinker_pkg', subdir = 'plinker')
+devtools::install_github('kforner/plinker_pkg', subdir = 'plinker')
 ```
 #### using the source
 clone/download this repository, then type:
